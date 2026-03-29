@@ -7,7 +7,7 @@
     "lockout_duration": 300
   },
   "web_access": {
-    "allow_external": false,
+    "allow_external": true,
     "allowed_ips": [
       "127.0.0.1",
       "localhost"
