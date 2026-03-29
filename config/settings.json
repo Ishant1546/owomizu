@@ -51,16 +51,16 @@
             ]
         },
         "pray": {
-            "enabled": false,
+            "enabled": true,
             "cooldown": [
                 310,
                 400
             ],
-            "userid": [],
+            "userid": [1162351653614256239],
             "pingUser": false
         },
         "curse": {
-            "enabled": true,
+            "enabled": false,
             "cooldown": [
                 310,
                 400
@@ -75,7 +75,7 @@
             "amount": 1
         },
         "lvlGrind": {
-            "enabled": false,
+            "enabled": true,
             "cooldown": [
                 10,
                 15
@@ -135,17 +135,17 @@
         }
     },
     "gamble": {
-        "allottedAmount": 30000,
+        "allottedAmount": 10000,
         "goalSystem": {
             "enabled": false,
             "amount": 300
         },
         "coinflip": {
-            "enabled": false,
+            "enabled": true,
             "strategy": "martingale",
             "startValue": 200,
             "multiplierOnLose": 2,
-            "maxStreakSafe": 3,
+            "maxStreakSafe": 5,
             "cooldown": [
                 16,
                 18
@@ -181,7 +181,7 @@
         "messageRangeToCheck": 6
     },
     "sleep": {
-        "enabled": false,
+        "enabled": true,
         "frequencyPercentage": 50,
         "checkTime": [
             10,
@@ -193,7 +193,7 @@
         ]
     },
     "misspell": {
-        "enabled": false,
+        "enabled": true,
         "frequencyPercentage": 1,
         "baseDelay": [
             0.03,
@@ -404,9 +404,9 @@
             ]
         },
         "workSchedule": {
-            "enabled": false,
-            "startHour": 7,
-            "endHour": 23
+            "enabled": true,
+            "startHour": 8,
+            "endHour": 24
         }
     }
 }
